@@ -1,0 +1,1 @@
+export declare const ROUPER_STORAGE_KEY_CLAIMS = "REACT_ROUTER_PERMISSION/claims";
