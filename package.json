@@ -1,6 +1,6 @@
 {
   "name": "rouper-navigation",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A middler for react-router-dom for routes permissions and any things",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

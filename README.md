@@ -132,6 +132,8 @@ So that claim validation does not occur after screen rendering, a validator is p
 
 If you observe, the object generated in the return of `useWithRouter`, a loader prop is added, but don't worry, if you pass this prop in the object, it will be executed normally without any interference, unless the user doesn't have permission to view the route, in this case its function is not executed.
 
+To better understand the `loader` prop [see the official documentation](https://reactrouter.com/en/main/route/loader)
+
 ```ts
 useWithRouter([
   {
