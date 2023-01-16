@@ -1,11 +1,19 @@
 {
   "name": "rouper-navigation",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A middler for react-router-dom for routes permissions and any things",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Thiel",
   "license": "MIT",
+  "keywords": [
+    "rouper-navigation",
+    "rouper",
+    "navigation",
+    "react",
+    "react-router",
+    "react-router-dom"
+  ],
   "scripts": {
     "build": "rimraf dist && tsc --emitDeclarationOnly && rollup -c",
     "npm:publish": "yarn build && npm publish"
