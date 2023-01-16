@@ -280,3 +280,9 @@ const route = useRouperMatch();
 ## Among other things...
 
 For information about route nesting, loader, and other things mentioned here, but which are related to lib `react-router-dom` [visit the official documentation](https://reactrouter.com/en/main/start/overview).
+
+## Special thanks
+
+My sincere thanks to [Gabriel Ramos](https://github.com/ElderGr) for the idea of the `paths` prop and for having seen the need to have a hook to get the current route data (feature created in `useRouperMatch`), from a talk some insight for this new lib, thanks a lot!
+
+And a special thanks to [Toy (Heitor)](https://github.com/heitormaca) for encouraging me to build this lib, as the initial idea was to refactor the [react-router-context](https://www.npmjs.com/package/react-router-context) lib, but the need arose to start a new lib.
