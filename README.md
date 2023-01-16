@@ -59,11 +59,6 @@ const rouperClient = new RouperClient({
 });
 ```
 
-**Arguments**
-
-- **storage**: You can pass a custom Storage instance
-- **storageKeyClaims**: A custom key to store the claims information
-
 ### Hooks
 
 The hooks are the grace of this lib, with them you can create applications with dynamism linked to your routes. Remembering that Rouper is just a middler, the `react-router-dom` continues to work and run as it should.
