@@ -1,10 +1,11 @@
 {
   "name": "rouper-navigation",
-  "version": "1.0.14",
-  "description": "A middler for react-router-dom for routes permissions and any things",
+  "version": "1.0.15",
+  "description": "Rouper Navigation is an intermediate component for react-router-dom, focused on route permissions and with some other cool features.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Thiel",
+  "repository": "https://github.com/ThielNS/rouper-navigation",
   "license": "MIT",
   "keywords": [
     "rouper-navigation",
