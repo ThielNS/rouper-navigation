@@ -69,7 +69,7 @@ var RouperProvider = function RouperProvider(_a) {
   }, props.children);
 };
 
-var ROUPER_STORAGE_KEY_CLAIMS = 'REACT_ROUTER_PERMISSION/claims';
+var ROUPER_STORAGE_KEY_CLAIMS = 'ROUPER_NAVIGATION/claims';
 
 var RouperClient = function () {
   function RouperClient(params) {
