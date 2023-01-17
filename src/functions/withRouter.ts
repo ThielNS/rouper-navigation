@@ -8,7 +8,7 @@ export default function withRouter<Outhers = unknown>(
   return routes.reduce<CustomRouteObjectReturn[]>(
     (
       prevRoutes,
-      { claims, children, paths, hasSomeClaims, outhers, ...route }
+      { claims, children, paths, hasSomeClaims, others, ...route }
     ) => {
       if (paths && Array.isArray(paths)) {
         paths.forEach((path) => {
@@ -19,7 +19,7 @@ export default function withRouter<Outhers = unknown>(
               ? (args) =>
                   routeLoader(
                     args,
-                    { ...route, claims, hasSomeClaims, outhers },
+                    { ...route, claims, hasSomeClaims, others },
                     storage
                   )
               : route?.loader,
@@ -38,7 +38,7 @@ export default function withRouter<Outhers = unknown>(
           ? (args) =>
               routeLoader(
                 args,
-                { ...route, claims, hasSomeClaims, outhers },
+                { ...route, claims, hasSomeClaims, others },
                 storage
               )
           : route?.loader,

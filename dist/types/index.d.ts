@@ -11,7 +11,7 @@ export declare type RouteObjectPermission = CustomRouteObject & {
     claims?: string[];
     paths?: string[];
     hasSomeClaims?: true;
-    outhers?: RouteObjectPermissionOuther;
+    others?: RouteObjectPermissionOuther;
 };
 export declare interface RouperContextParams {
     claims: string[] | null;

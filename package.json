@@ -1,6 +1,6 @@
 {
   "name": "rouper-navigation",
-  "version": "1.0.15",
+  "version": "1.1.0",
   "description": "Rouper Navigation is an intermediate component for react-router-dom, focused on route permissions and with some other cool features.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

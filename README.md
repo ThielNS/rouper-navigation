@@ -188,7 +188,20 @@ see how to set up an error screen with the **errorElement** prop in the [react-r
 
 - **hasSomeClaims**: `true | undefined` By default, when you pass a claims prop, you are saying that the user needs to have all the claims informed to have access to the route, however it is possible to pass a `hasSomeClaims` (as shown in the example above), when you want the user to has at least 1 of the informed claims.
 
-- **outhers**: `Record<string, any>` You can pass extra props to your route if you want to configure breadcrumb for example. you can access this information with the `useRouperRoutes` or `useRouperMatch` hooks.
+- **others**: `Record<string, any>` You can pass extra props to your route if you want to configure breadcrumb for example. you can access this information with the `useRouperRoutes` or `useRouperMatch` hooks.
+
+```ts
+useWithRouter([
+  {
+    path: '/',
+    element: <HomePage />,
+    others: {
+      title: 'Home Page',
+      icon: <RiHomeLine />,
+    },
+  },
+]);
+```
 
 #### useRouperClaimsState
 

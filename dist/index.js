@@ -150,8 +150,8 @@ function withRouter(routes, storage) {
       children = _a.children,
       paths = _a.paths,
       hasSomeClaims = _a.hasSomeClaims,
-      outhers = _a.outhers,
-      route = __rest(_a, ["claims", "children", "paths", "hasSomeClaims", "outhers"]);
+      others = _a.others,
+      route = __rest(_a, ["claims", "children", "paths", "hasSomeClaims", "others"]);
     if (paths && Array.isArray(paths)) {
       paths.forEach(function (path) {
         prevRoutes.push(__assign(__assign({}, route), {
@@ -160,7 +160,7 @@ function withRouter(routes, storage) {
             return loader(args, __assign(__assign({}, route), {
               claims: claims,
               hasSomeClaims: hasSomeClaims,
-              outhers: outhers
+              others: others
             }), storage);
           } : route === null || route === void 0 ? void 0 : route.loader,
           children: (children === null || children === void 0 ? void 0 : children.length) ? withRouter(children, storage) : undefined
@@ -173,7 +173,7 @@ function withRouter(routes, storage) {
         return loader(args, __assign(__assign({}, route), {
           claims: claims,
           hasSomeClaims: hasSomeClaims,
-          outhers: outhers
+          others: others
         }), storage);
       } : route === null || route === void 0 ? void 0 : route.loader,
       children: (children === null || children === void 0 ? void 0 : children.length) ? withRouter(children, storage) : undefined
